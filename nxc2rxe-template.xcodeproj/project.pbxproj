@@ -6,11 +6,36 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		0EB8BA2E1E3F7479001277FF /* nbc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = nbc; path = bin/nbc; sourceTree = "<group>"; };
+		0EB8BA351E3F74B0001277FF /* Makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; path = Makefile; sourceTree = "<group>"; };
+		0EB8BA3B1E3F7DCC001277FF /* nxc2rxe-template.nxc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nxc2rxe-template.nxc"; path = "source/nxc2rxe-template.nxc"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		0EB8BA221E3F725D001277FF = {
 			isa = PBXGroup;
 			children = (
+				0EB8BA361E3F7511001277FF /* source */,
+				0EB8BA351E3F74B0001277FF /* Makefile */,
+				0EB8BA2D1E3F7471001277FF /* bin */,
 			);
+			sourceTree = "<group>";
+		};
+		0EB8BA2D1E3F7471001277FF /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				0EB8BA2E1E3F7479001277FF /* nbc */,
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+		0EB8BA361E3F7511001277FF /* source */ = {
+			isa = PBXGroup;
+			children = (
+				0EB8BA3B1E3F7DCC001277FF /* nxc2rxe-template.nxc */,
+			);
+			name = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +209,7 @@
 				0EB8BA2C1E3F725D001277FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

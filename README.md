@@ -2,7 +2,8 @@
 
 ## Build
 
-Open Xcode.app and run build.
+- Make build/ if not exist.
+- Open Xcode.app and run build.
 
 ## Compiler
 
